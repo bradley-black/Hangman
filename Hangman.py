@@ -84,7 +84,6 @@ while wrong_guesses < len(hangman_pics)-1:
 
     if user_guess not in chosen_word:
         wrong_guesses += 1
-        print(wrong_guesses)
         print(hangman_pics[wrong_guesses])
 
     word = ""
