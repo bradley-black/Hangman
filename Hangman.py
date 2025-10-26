@@ -97,4 +97,4 @@ while wrong_guesses < len(hangman_pics)-1:
 if word == chosen_word:
     print(f'The word is {chosen_word}. You Won with {guesses} guesses')
 else:
-    print("You lost. Try again.")
+    print(f"You lost. The word was {chosen_word}. Try again.")
